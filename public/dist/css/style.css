@@ -1,0 +1,36 @@
+
+.nav-link{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80px;
+    border-radius: 5px;
+    margin: 5px;
+}
+
+.active{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: orange;
+    border-radius: 5px;
+    color: black;
+}
+
+.nav-link{
+    color: white;
+}
+
+
+.nav-link:hover{
+    color: black;
+    background-color: orange;
+}
+
+.image{
+    transition: transform ease 0.5s;
+}
+
+.image:hover{
+    transform: scale(110%);
+}
